@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.column {
+    flex: 1;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1, 1);
+}
