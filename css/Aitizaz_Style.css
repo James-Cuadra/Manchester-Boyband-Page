@@ -1,0 +1,19 @@
+.topnav a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+body {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
