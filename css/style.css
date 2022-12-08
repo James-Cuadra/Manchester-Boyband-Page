@@ -24,6 +24,7 @@ img {
     object-fit: cover;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
+    position: relative;
 }
 
 img:hover {
