@@ -1,6 +1,6 @@
 .topnav a {
   float: left;
-  display: block;
+  display:block;
   color: green;
   text-align: center;
   padding: 14px 16px;
@@ -23,17 +23,14 @@ p {
 
 body {
   font-size: 1rem;
-  padding: 0.5rem;
   background-color: #E5FFF9;
   color: #066051;
   line-height: 9mm;
-  display: flex;
 }
 
 #AboutMe {
   position: absolute;
-  top: 40px;
-  padding-left: 0.1rem;
+  bottom:0px;
 }
 
 h1{
