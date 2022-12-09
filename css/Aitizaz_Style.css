@@ -13,7 +13,27 @@
   color: white;
 }
 
+p {
+  font-family: 'Caveat', sans-serif;
+  font-size: 1.5rem;
+}
+
 body {
   font-size: 1rem;
   padding: 0.5rem;
+  background-color: #E5FFF9;
+  color: #066051;
+  line-height: 5mm;
+  max-width: fit-content;
+}
+
+#AboutMe {
+  position: absolute;
+  top: 40px;
+  padding-left: 0.1rem;
+}
+
+.resize {
+  width: 280px;
+  height: 420px;
 }
