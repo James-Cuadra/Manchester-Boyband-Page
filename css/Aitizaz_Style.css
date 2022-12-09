@@ -15,7 +15,10 @@
 
 p {
   font-family: 'Caveat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  padding-left: 15px;
+  margin: 15px;
+  max-width: 120ch;
 }
 
 body {
@@ -23,8 +26,8 @@ body {
   padding: 0.5rem;
   background-color: #E5FFF9;
   color: #066051;
-  line-height: 5mm;
-  max-width: fit-content;
+  line-height: 9mm;
+  display: flex;
 }
 
 #AboutMe {
@@ -33,7 +36,18 @@ body {
   padding-left: 0.1rem;
 }
 
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+
 .resize {
   width: 280px;
-  height: 420px;
+  height: 430px;
+  padding: 10px;
+  float: left;
+}
+
+.mid{
+  text-align: center;
 }
