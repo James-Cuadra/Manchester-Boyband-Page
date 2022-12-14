@@ -1,0 +1,63 @@
+.topnav a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+.topnav a:hover {
+  background-color: #555;
+  color: white;
+  transform: scale(1.1, 1);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.9rem;
+  padding-left: 15px;
+  margin: 15px;
+  max-width: 125ch;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #E5FFF9;
+  color: #066051;
+  line-height: 9mm;
+}
+
+#AboutMe {
+  position: inherit;
+  padding-top: 6vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.resize {
+  width: 280px;
+  height: 430px;
+  padding: 10px;
+  float: left;
+}
+
+.mid {
+  text-align: center;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+}

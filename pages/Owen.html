@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- meta tags for internet and mobile -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title (obviously) and meta tag for the content -->
+  <title>Owen Tagg The Guitarist</title>
+  <meta name="All about the guitarist" content="A webpage deep diving into the guitarist of the band, Owenn Tagg">
+
+  <!-- link to google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!-- connecting the css document to my page -->
+  <link rel="stylesheet" href="../css/Owen_Style.css">
+
+
+</head>
+
+<!-- Navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="../index.html" class="active">Home</a>
+  <a href="#news">magic</a>
+  <a href="#contact">wow it works</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- Javascript to show the dropdown box when hovered over -->
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+<body>
+  <header class="page-header">
+    <div class="header-content">
+      <h1>Owen Tagg</h1>
+      <p><em>The Guitarist</em></p>
+      <section id="contact-header" class="contact-me-header container">
+      </section>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- About me section -->
+    <section id="about" class="about-me container">
+      <div class="container-content">
+
+    </section>
+
+    <!-- section about work -->
+    <section id="work" class="work-experience container">
+      <div class="container-content">
+
+      </div>
+    </section>
+
+    <section id="images" class="image-gallery container">
+      <div class="container-content">
+        <h2>Image Gallery</h2>
+        <div class="image-container">
+          <div class="an-image">
+            <figure>
+              <img src="" alt="">
+              <figcaption></figcaption>
+              <div class="image-caption">
+                <p></p>
+              </div>
+            </figure>
+          </div>
+          <div class="an-image">
+            <figure>
+              <img src="" alt=""> </a>
+              <figcaption></figcaption>
+              <div class="image-caption">
+                <p></p>
+              </div>
+            </figure>
+          </div>
+          <div class="an-image">
+            <figure>
+              <img src="" alt="">
+              <figcaption></figcaption>
+              <div class="image-caption">
+                <p></p>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-me container">
+      <div class="container-content">
+        <h2>Contact Me</h2>
+
+        <form action="" method="post">
+          <p>
+            <label for="contact-name">Your Name</label>
+            <input id="contact-name" type="text" name="contact-name">
+          </p>
+          <p>
+            <label for="contact-email">Your email address</label>
+            <input id="contact-email" type="email" name="contact-email"> </p>
+          <p>
+            <label for="contact-phone">Your phone number</label>
+            <input id="contact-phone" type="tel" name="contact-phone"> </p>
+          <p>
+            <label for="contact-message">Your message</label>
+            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+          </p>
+          <p>
+            <input type="submit" value="send my message"> </p>
+        </form>
+      </div>
+    </section>
+</body>
+
+</html>
