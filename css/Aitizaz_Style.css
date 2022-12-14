@@ -1,24 +1,29 @@
 .topnav a {
   float: left;
-  display:block;
+  display: block;
   color: green;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 21px;
+
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  position: relative;
 }
 
 .topnav a:hover {
   background-color: #555;
   color: white;
+  transform: scale(1.1, 1);
 }
 
 p {
-  font-family: 'Caveat', sans-serif;
-  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.9rem;
   padding-left: 15px;
   margin: 15px;
-  max-width: 120ch;
+  max-width: 125ch;
 }
 
 body {
@@ -34,9 +39,10 @@ body {
   text-align: center;
 }
 
-h1{
+h1 {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px;
 }
 
@@ -47,6 +53,11 @@ h1{
   float: left;
 }
 
-.mid{
+.mid {
+  text-align: center;
+}
+
+footer {
+  padding: 50px;
   text-align: center;
 }
