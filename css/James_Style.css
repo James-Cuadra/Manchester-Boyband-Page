@@ -2,6 +2,53 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 200vh;
   margin: 0;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* basic element styling */
+
+h1,
+h2 {
+    font-weight: bold;
+    font-family: 'Roboto', helvetica, sans-serif;
+    /* Google font, web safe font, generic fallback */
+    letter-spacing: normal;
+    text-transform: capitalize;
+    transition: all 2s ease;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 5px;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease;
 }
 
 nav {
@@ -29,4 +76,31 @@ nav a {
 
 nav a:hover {
   opacity: 1;
+}
+
+.footer-switch {
+  position: fixed;
+  background: rgb(113, 168, 250);
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-switch img {
+  box-sizing: border-box;
+}
+
+
+.footer-switch:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+  transform: translateY(-5px);
+}
+
+.footer-switch:active {
+  transform: translateY(0px);
 }
