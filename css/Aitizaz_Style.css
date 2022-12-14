@@ -3,19 +3,17 @@
   display: block;
   color: green;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 21px;
   text-decoration: none;
   font-size: 21px;
-
-  transition: transform 0.2s ease-in-out;
-  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
   position: relative;
 }
 
 .topnav a:hover {
   background-color: #555;
   color: white;
-  transform: scale(1.1, 1);
+  transform: scale(1.2, 1);
 }
 
 p {
