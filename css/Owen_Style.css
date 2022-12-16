@@ -1,10 +1,13 @@
+
+
 /* icl the next 116 lines are for the dropdown box */  
   /* Add grey background to the top navigation */
   .topnav {
     background-color: #333;
     overflow: hidden;
+    position: relative;
   }
-
+ 
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -113,3 +116,10 @@
       text-align: left;
     }
   }
+
+   /* Centre the page and make it look nice :D */
+ body {
+  text-align: center;
+  background-color: peachpuff;
+}
+
