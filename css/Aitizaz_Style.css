@@ -1,3 +1,5 @@
+/* Below the topnav styles the navigation bar to make it transform/animate to make it bigger like an effect and other styling*/
+
 .topnav a {
   float: left;
   display: block;
@@ -10,8 +12,10 @@
   position: relative;
 }
 
+/*When mouse hovers over the pages link it creates the effect and styles it to make it fit with the background so it does not look bulky*/
+
 .topnav a:hover {
-  background-color:(60deg, rgba(98, 9, 121, 1) 0%, rgba(0, 255, 246, 1) 100%);
+  background-color: (60deg, rgba(98, 9, 121, 1) 0%, rgba(0, 255, 246, 1) 100%);
   color: white;
   transform: scale(1.2, 1);
 }
@@ -43,9 +47,11 @@ h1 {
   text-shadow: 2px 1.5px 5px greenyellow;
 }
 
-#strongs{
+#strongs {
   color: red;
 }
+
+/*This makes the image to stay on the left hand side of the page to make sure that text does not appear on the picture*/
 .resize {
   width: 280px;
   height: 430px;
@@ -62,6 +68,7 @@ footer {
   text-align: center;
 }
 
+/* Below is the section where my animation for the background starts*/
 
 .circles {
   position: absolute;
@@ -69,8 +76,10 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow:hidden;
+  overflow: hidden;
 }
+
+/* This sets out the main colour for the next couple li tags which will be shaped to square like shape*/
 
 .circles li {
   position: absolute;
@@ -79,10 +88,11 @@ footer {
   width: 20px;
   height: 20px;
   background: linear-gradient(56deg, rgba(98, 9, 121, 1) 0%, rgb(255, 0, 98) 100%);
-  animation: animate 25s linear infinite;   
+  animation: animate 25s linear infinite;
   bottom: 0;
 }
 
+/*This styles for each and different li tag node in total 16 of them*/
 .circles li:nth-child(1) {
   left: 25%;
   width: 80px;
@@ -166,7 +176,9 @@ footer {
   animation-delay: 2s;
   animation-duration: 35s;
 
-}.circles li:nth-child(12) {
+}
+
+.circles li:nth-child(12) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -203,18 +215,20 @@ footer {
   height: 80px;
   animation-delay: 0s;
 }
+
+/*This defines the start and end of the transformation and to ensure that they are a smooth transition between each style of the li tags*/
 @keyframes animate {
 
   0% {
-      transform: translateY(0) rotate(0deg);
-      opacity: 0.9;
-      border-radius: 0;
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.9;
+    border-radius: 0;
   }
 
   100% {
-      transform: translateY(-1000px) rotate(720deg);
-      opacity: 0;
-      border-radius: 50%;
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
   }
 
 }
