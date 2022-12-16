@@ -4,40 +4,84 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--This makes it compatible for mobile phone view-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aitizaz Ansar The Drummer</title>
   <link rel="stylesheet" href="../css/Aitizaz_Style.css">
   <meta name="Everything that you need to know about Aitizaz is all here!!!" content="Manchester Boyband big W">
+  <!-- This is a link thingy to where my custom font is from-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  rel="stylesheet">
-
-
-
-
+    rel="stylesheet">
 
 
 </head>
 
 <!-- simple nav to bring you back to the homescreen -->
+
+
+<div id="clock">12:10:45</div>
+
+<script src="../js/Aitizaz_script.js"></script>
+
+<style>
+  #clock {
+    font-size: 30px;
+    color: red;
+    width: 118px;
+    margin: 55px;
+    text-align: center;
+    float: right;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+</style>
+
 <body>
 
+  <!--This is is where the shapes for the background are 'called/made'-->
+
+  <ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  <!--Addded a div to create a division as this section is the navigation section to switch between pages-->
   <div class="topnav" id="myTopnav">
     <a href="../index.html" class="active">Home</a>
     <a href="../pages/AitizazHobbies&Interest.html" class="active">Hobbies and interest</a>
     <a href="../pages/Backstory.html" class="active">Backstory</a>
   </div>
-  
+
+  <!-- Again a div is used to here to create a division between navigation and the main text so that they can be styled differently etc-->
   <div id="AboutMe">
     <h1>About me</h1>
     <p>Well you clicked on this link to know everything about me, well not everything just some things. You are still
       reading, this oh well I guess I have to tell you a little something about me.</p>
     <p class="mid">Let’s start off with my name which is Aitizaz, and I welcome you to this page about me. </p>
+
     <figure>
+      <!--Image of me-->
       <img class="resize" src="../img/AitizazLittle1.jpeg" alt="Litte Aitizaz">
     </figure>
+    <!-- Addedd a seperate section as this part of the text I wanted to style it for this part only as I want text to be on right hand side of image-->
     <div>
+      <!-- Added a br tag to break up the page as it was overlapping with other text-->
       <br>
       <p>Believe it or not this kid on the left is me, I know haven’t changed much apart from my age!!! When this
         picture was taken it was roughly when my dad got my first console the Nintendo DSi for my birthday and a
@@ -48,7 +92,9 @@
         technology and from there I would always dismantle anything technology related and would research what each
         component did.
         <br>
-        <strong>Fun fact:</strong>
+        <!--Added a strong tag to make text bold and gave it a ID to style it-->
+        <strong id="strongs">Fun fact:</strong>
+        <!--Added italics to seperate the look of the text as this part is to give it a purpose/effect-->
         <italics>I tried to take my dad’s laptop apart when I was 9 and let’s just say that dad never got to see
           that computer ever again. </italics>
       </p>
@@ -59,20 +105,27 @@
         where you hit a bunch of circles which outputs the sounds of drums as I was in a band in primary school playing
         the drums.</p>
 
+      <p>Playing the drums was something I liked but stopped playing when I reached secondary school where I learnt a
+        bit more about computers and decided that I would study Computer Science as one of subjects at A-Levels and
+        possibly help land me a job to with programming (Spoiler Alert: it did!!). During A-levels, I have been working
+        on many projects such as creating my first ever game in the program language C# which I must say is one of the
+        achievements that I am proud of as it was interesting how you can create something to life with just coding.
+      </p>
+
     </div>
 
   </div>
 
+  <!-- Another br tag to seperate the main text and the footer-->
+  <br>
+
   <footer>
     <p>
+      <!--Copyright logo and a link that sends to home landing page and also my title and a link to email me-->
       &copy; <a href="../index.html" title="MBB">MBB 2022</a> | Manchester Boy Band | The Drummer <a
         href="mailto:aitizaz.ansar@fujitsu.com">Aitizaz Ansar</a>
     </p>
   </footer>
-
-
-
-
 
 </body>
 

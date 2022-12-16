@@ -3,14 +3,14 @@ function currentTime() {
     let hh = date.getHours();
     let mm = date.getMinutes();
     let ss = date.getSeconds();
-    let session = "PM";
+    let session = "AM";
   
     if(hh == 0){
         hh = 12;
     }
     if(hh > 12){
         hh = hh - 12;
-        session = "AM";
+        session = "PM";
      }
   
      hh = (hh < 10) ? "0" + hh : hh;
