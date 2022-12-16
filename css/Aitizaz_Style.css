@@ -27,6 +27,8 @@ p {
   max-width: 125ch;
 }
 
+/*This is where the background has a colour that fades from purple to light blueish */
+
 body {
   background: linear-gradient(60deg, rgba(98, 9, 121, 1) 0%, rgba(0, 255, 246, 1) 100%);
   color: wheat;
@@ -67,6 +69,19 @@ footer {
   padding: 49px;
   text-align: center;
 }
+
+footer:link{
+  color:red;
+}
+
+footer:visited{
+  color:aqua;
+}
+
+footer:active{
+  color:wheat;
+}
+
 
 /* Below is the section where my animation for the background starts*/
 
@@ -149,7 +164,7 @@ footer {
   left: 50%;
   width: 25px;
   height: 25px;
-  animation-delay: 7s;
+  animation-delay: 5s;
   animation-duration: 45s;
 }
 
@@ -190,14 +205,14 @@ footer {
   left: 35%;
   width: 150px;
   height: 150px;
-  animation-delay: 9s;
+  animation-delay: 8s;
 }
 
 .circles li:nth-child(14) {
   left: 50%;
   width: 25px;
   height: 25px;
-  animation-delay: 6s;
+  animation-delay: 8s;
   animation-duration: 45s;
 }
 
