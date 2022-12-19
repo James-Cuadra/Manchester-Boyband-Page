@@ -10,7 +10,7 @@ function currentTime() {
     }
     if(hh > 12){
         hh = hh - 12;
-        session = "AM";
+        session = "PM";
      }
   
      hh = (hh < 10) ? "0" + hh : hh;
