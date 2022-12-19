@@ -129,11 +129,11 @@
     font-size: auto;
     color: white;
     background: #04AA6D;
-    width: 110px;
+    width: 150px;
     text-align: center;
     float: right;
     border: 1px solid black;
     text-emphasis: bold;
     border-radius: 10px;
-    
+    font-size: 1.6em;
   }
