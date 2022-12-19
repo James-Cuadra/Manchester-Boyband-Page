@@ -5,9 +5,9 @@ function changePage() {
   if(icon.className!="light")
     {
         root.style.setProperty('--background-color', "rgb(0, 0, 0)")
-        root.style.setProperty('--text-color', "rgb(0, 0, 0)")
-        root.style.setProperty('--nav-color', "rgb(0, 0, 0)")
-        root.style.setProperty('--nav-text-color', "rgb(0, 0, 0)")
+        root.style.setProperty('--text-color', "rgb(255, 255, 255)")
+        root.style.setProperty('--nav-color', "rgb(85, 85, 85)")
+        root.style.setProperty('--nav-text-color', "rgb(255, 255, 255)")
         icon.src='../img/light.png';
         icon.className="light";
     }
