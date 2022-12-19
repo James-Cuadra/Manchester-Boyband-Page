@@ -15,6 +15,9 @@
 
 </head>
 
+<!--Javascript that links to my image gallery-->
+<script src="../js/Aitizaz_2script.js"></script>
+
 <!--This is the script that links to my JavaScript-->
 
 <div id="clock">12:10:45</div>
@@ -38,7 +41,7 @@
 <!-- simple nav to bring you back to the homescreen -->
 
 <body>
-  <ul class="circles">
+  <ul class="squares">
     <li></li>
     <li></li>
     <li></li>
@@ -97,17 +100,60 @@
   </div>
 
   <h2>Image Gallery </h2>
-  <b>Photos</b>
-  <div class="gallery">
-    <a href="../img/Aitizaz_300SLpic.jpg">
-      <img src="">
-    </a>
-    <a href="">
-      <img src="">
-    </a>
-    <a href="">
-      <img src="">
-    </a>
+
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="../img/Aitizaz_300SLpic.jpg" style="width:100%">
+      <div class="text">Mercedes Benz 300SL</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="../img/Aitizaz_Batmobile.jpeg" style="width:100%">
+      <div class="text">Lego Batmobile with Batman on top</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="../img/Aitizaz_SennaGTR.jpeg" style="width:100%">
+      <div class="text">Lego Mclaren Senna GTR Angle 1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="../img/SennaAitizaz.jpeg" style="width:100%">
+      <div class="text">Lego Mclaren Senna GTR Angle 2</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="../img/Aitizaz50pCollection.jpeg" style="width:100%">
+      <div class="text">One of my 50p Collection of the late Queen</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="../img/AitizazQueenLizzyCoins.jpeg" style="width:100%">
+      <div class="text">Inside of the box of the 50p Collection</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
   </div>
 
 

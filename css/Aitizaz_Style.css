@@ -50,6 +50,16 @@ h1 {
   text-shadow: 2px 1.5px 5px greenyellow;
 }
 
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  justify-content: left;
+  font-size: 40px;
+  padding: 10px;
+  text-shadow: 2px 1.5px 5px greenyellow;
+}
+
+
 #strongs {
   color: red;
 }
@@ -86,7 +96,7 @@ footer:active{
 
 /* Below is the section where my animation for the background starts*/
 
-.circles {
+.squares {
   position: absolute;
   top: 0;
   left: 0;
@@ -97,7 +107,7 @@ footer:active{
 
 /* This sets out the main colour for the next couple li tags which will be shaped to square like shape*/
 
-.circles li {
+.squares li {
   position: absolute;
   display: block;
   list-style: none;
@@ -109,7 +119,7 @@ footer:active{
 }
 
 /*This styles for each and different li tag node in total 16 of them*/
-.circles li:nth-child(1) {
+.squares li:nth-child(1) {
   left: 25%;
   width: 80px;
   height: 80px;
@@ -117,7 +127,7 @@ footer:active{
 }
 
 
-.circles li:nth-child(2) {
+.squares li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
@@ -125,14 +135,14 @@ footer:active{
   animation-duration: 12s;
 }
 
-.circles li:nth-child(3) {
+.squares li:nth-child(3) {
   left: 70%;
   width: 20px;
   height: 20px;
   animation-delay: 4s;
 }
 
-.circles li:nth-child(4) {
+.squares li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
@@ -140,28 +150,28 @@ footer:active{
   animation-duration: 18s;
 }
 
-.circles li:nth-child(5) {
+.squares li:nth-child(5) {
   left: 65%;
   width: 20px;
   height: 20px;
   animation-delay: 0s;
 }
 
-.circles li:nth-child(6) {
+.squares li:nth-child(6) {
   left: 75%;
   width: 110px;
   height: 110px;
   animation-delay: 3s;
 }
 
-.circles li:nth-child(7) {
+.squares li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
   animation-delay: 5s;
 }
 
-.circles li:nth-child(8) {
+.squares li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -169,7 +179,7 @@ footer:active{
   animation-duration: 45s;
 }
 
-.circles li:nth-child(9) {
+.squares li:nth-child(9) {
   left: 20%;
   width: 15px;
   height: 15px;
@@ -177,7 +187,7 @@ footer:active{
   animation-duration: 35s;
 }
 
-.circles li:nth-child(10) {
+.squares li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
@@ -185,7 +195,7 @@ footer:active{
   animation-duration: 11s;
 }
 
-.circles li:nth-child(11) {
+.squares li:nth-child(11) {
   left: 20%;
   width: 15px;
   height: 15px;
@@ -194,7 +204,7 @@ footer:active{
 
 }
 
-.circles li:nth-child(12) {
+.squares li:nth-child(12) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -202,14 +212,14 @@ footer:active{
   animation-duration: 45s;
 }
 
-.circles li:nth-child(13) {
+.squares li:nth-child(13) {
   left: 35%;
   width: 150px;
   height: 150px;
   animation-delay: 8s;
 }
 
-.circles li:nth-child(14) {
+.squares li:nth-child(14) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -217,7 +227,7 @@ footer:active{
   animation-duration: 45s;
 }
 
-.circles li:nth-child(15) {
+.squares li:nth-child(15) {
   left: 40%;
   width: 60px;
   height: 60px;
@@ -225,7 +235,7 @@ footer:active{
   animation-duration: 15s;
 }
 
-.circles li:nth-child(16) {
+.squares li:nth-child(16) {
   left: 25%;
   width: 80px;
   height: 80px;
@@ -247,4 +257,96 @@ footer:active{
     border-radius: 50%;
   }
 
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:rgba(0, 255, 246, 1);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: rebeccapurple;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
