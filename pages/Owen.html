@@ -29,16 +29,16 @@
   <a href="../pages/James.html">James</a>
   <a href="../pages/Aitizaz.html">Aitizaz</a>
   <div class="dropdown">
-    <button class="dropbtn">dropdown
+    <button class="dropbtn">Page Links
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Hobbies and Interest</a>
-      <a href="#">Gallery</a>
-      <a href="#">Backstory</a>
+      <a href="about">Hobbies and Interest</a>
+      <a href="images">Gallery</a>
+      <a href="../pages/Backstory.html">Backstory</a>
     </div>
   </div>
-  <a href="#about">Contact Me</a>
+  <a href="mailto:owen.tagg@fujitsu.com">Contact Me</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> </div>
   <script>
     function myFunction() {
@@ -50,7 +50,7 @@
       }
     }
     </script>
-   <div class="myClock" id = "clock" onload="currentTime()"></div> 
+   
 
 </div>
 
@@ -58,6 +58,9 @@
 <body>
   
   <header class="page-header">
+
+    <div class="myClock" id = "clock" onload="currentTime()"></div> 
+    <img src="https://see.fontimg.com/api/renderfont4/4BoW4/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiIzEwMTAxMCIsInQiOjF9/MTAyM01C/summer-pixel-wide-22-regular.png" alt="Pixel fonts">
     <div class="header-content">
       <h1>Owen Tagg</h1>
       <p><em>The Guitarist</em></p>
@@ -70,7 +73,17 @@
     <!-- About me section -->
     <section id="about" class="about-me container">
       <div class="container-content">
+        <h2>About Me</h2>
+        <h3>Learning Guitar</h3>
+      <p>Since a young age I've been infactuated with music it was my entire life. I've spent my whole life exploring music and travelling to different concerts and festivals. Growing up my dad played some of the greats like Jimi Hendrix, this is what inspired me to learn the guitar.</p>
+    
+      <p>Around age 12 I started learning the guitar and ukulele starting with some of my favourite songs from Arctic Monkeys, Radiohead and Weezer, and I practiced everyday until I got really good </p>
+    
+      <h3>Growing up with tech</h3>
+      <p>Around the same age I started playing the guitar I started learning about PC's and tech. My dad is an engineer and he is where I got most of my interests from. He allowed me to tinker and offered loads of old parts to play around with teaching me as I went along.</p>
+      <p>At age 15 I built my first PC with the help of my dad and youtube and I slowly upgraded it using money I earned from my paper round and woring weekends at a chinese.</p>
 
+      <p> Now I have a complete setup including a wall mounted top of the rage PC, high end XLR mic and interface, 5.1 surround sound and a beautiful electric guitar and amp to explore my passions.</p>
     </section>
 
     <!-- section about work -->
@@ -86,26 +99,24 @@
         <div class="image-container">
           <div class="an-image">
             <figure>
-              <img src="" alt="">
-              <figcaption></figcaption>
+              <img src="../img/OwenHoldingGuitar.jpg" alt="Picture of me playing the guitar">
+              <figcaption>Here is me playng the guitar at my friends house</figcaption>
               <div class="image-caption">
-                <p></p>
               </div>
             </figure>
           </div>
           <div class="an-image">
             <figure>
-              <img src="" alt=""> </a>
-              <figcaption></figcaption>
+              <img src="../img/OwenBlossoms.jpg" alt="Picture of a stage at a festival"> </a>
+              <figcaption>This was when I saw the Blossoms Live</figcaption>
               <div class="image-caption">
-                <p></p>
               </div>
             </figure>
           </div>
           <div class="an-image">
             <figure>
-              <img src="" alt="">
-              <figcaption></figcaption>
+              <img src="../img/OwenHappyFits.jpg" alt="Picture of band on stage">
+              <figcaption>This is when I saw my favourite band The Happy Fits</figcaption>
               <div class="image-caption">
                 <p></p>
               </div>
@@ -115,30 +126,6 @@
       </div>
     </section>
 
-    <section id="contact" class="contact-me container">
-      <div class="container-content">
-        <h2>Contact Me</h2>
-
-        <form action="" method="post">
-          <p>
-            <label for="contact-name">Your Name</label>
-            <input id="contact-name" type="text" name="contact-name">
-          </p>
-          <p>
-            <label for="contact-email">Your email address</label>
-            <input id="contact-email" type="email" name="contact-email"> </p>
-          <p>
-            <label for="contact-phone">Your phone number</label>
-            <input id="contact-phone" type="tel" name="contact-phone"> </p>
-          <p>
-            <label for="contact-message">Your message</label>
-            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
-          </p>
-          <p>
-            <input type="submit" value="send my message"> </p>
-        </form>
-      </div>
-    </section>
     <script src="../js/Owen_script.js"></script>
 </body>
 
