@@ -1,7 +1,7 @@
 .topnav a {
     float: left;
     display:block;
-    color: green;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,8 +22,9 @@
 
   body {
     /*Change colour of text*/
-    color: red;
+    color: white;
     line-height: 9mm;
+    background: linear-gradient(56deg, rgba(98, 9, 121, 1) 0%, rgb(255, 0, 98) 100%);
   }
 
   #Backstory {
@@ -65,4 +66,11 @@
   
   footer:active{
     color:wheat;
+  }
+
+  .Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
   }

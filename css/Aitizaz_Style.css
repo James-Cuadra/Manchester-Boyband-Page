@@ -350,3 +350,10 @@ footer:active{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.Logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
