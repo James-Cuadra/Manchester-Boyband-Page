@@ -129,9 +129,23 @@
     background: #04AA6D;
     width: 150px;
     text-align: center;
-    float: right;
+    margin-left: auto;
     border: 1px solid black;
     text-emphasis: bold;
     border-radius: 10px;
     font-size: 1.6em;
+  }
+  header {
+    background: rgb(229, 190, 156);
+  }
+  header h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  header p {
+    font-size: 25px;
+  }
+  body p {
+    max-width: 65ch;
+    margin: auto;
   }
